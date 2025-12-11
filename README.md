@@ -10,5 +10,6 @@ I will try to aim to print the whole thing out of cf nylon as I kno w a freind w
 
 <img width="797" height="637" alt="image" src="https://github.com/user-attachments/assets/b8a87589-cfcf-4433-b498-da8340cf43bc" />
 
-<img width="1220" height="290" alt="image" src="https://github.com/user-attachments/assets/a79e4193-8bda-4056-922f-753f175750e5" />
+<img width="1357" height="319" alt="image" src="https://github.com/user-attachments/assets/706437a7-dbaf-4029-8036-269acea3f0cc" />
+
 I had to insert a screenshot because otherwise you wouldnt be able to see the colours.
