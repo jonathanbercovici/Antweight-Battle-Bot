@@ -9,7 +9,6 @@ I am making this robot to hopefully compete in the rock and robots competion on 
 I will try to aim to print the whole thing out of cf nylon as I kno w a freind with a lot of it.
 
 <img width="797" height="637" alt="image" src="https://github.com/user-attachments/assets/b8a87589-cfcf-4433-b498-da8340cf43bc" />
-
-<img width="1357" height="319" alt="image" src="https://github.com/user-attachments/assets/706437a7-dbaf-4029-8036-269acea3f0cc" />
+<img width="1262" height="257" alt="image" src="https://github.com/user-attachments/assets/0baeb2ab-4969-43c6-a150-890e2aeee001" />
 
 I had to insert a screenshot because otherwise you wouldnt be able to see the colours.
