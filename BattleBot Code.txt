@@ -1,0 +1,89 @@
+
+local DEADZONE = 50
+local RAMP_RATE = 15      
+local SPEED_LOW = 0.4
+local SPEED_MED = 0.7
+local SPEED_HIGH = 1.0
+
+
+local LEFT_DIR = 1
+local RIGHT_DIR = 1
+local AUX_DIR = 1
+
+
+local curL = 0
+local curR = 0
+local curA = 0
+
+local function dz(v)
+  if math.abs(v) < DEADZONE then return 0 end
+  return v
+end
+
+local function clamp(v)
+  if v > 1024 then return 1024 end
+  if v < -1024 then return -1024 end
+  return v
+end
+
+local function ramp(current, target)
+  if target > current + RAMP_RATE then
+    return current + RAMP_RATE
+  elseif target < current - RAMP_RATE then
+    return current - RAMP_RATE
+  end
+  return target
+end
+
+local function getSpeedScale()
+  local sb = getValue("sb")
+  if sb < -500 then
+    return SPEED_LOW
+  elseif sb > 500 then
+    return SPEED_HIGH
+  end
+  return SPEED_MED
+end
+
+local function run()
+  -- SAFETY SWITCH (SA down = OFF)
+  if getValue("sa") < 0 then
+    curL, curR, curA = 0, 0, 0
+    setOutput(0, 0)
+    setOutput(1, 0)
+    setOutput(2, 0)
+    return
+  end
+
+  local throttle = dz(getValue("ele")) -- forward/back
+  local steering = dz(getValue("ail")) -- turn
+  local aux      = dz(getValue("thr")) -- aux motor
+
+  local scale = getSpeedScale()
+
+
+  if getValue("sc") > 0 then
+    throttle = 0
+  end
+
+
+  local targetL = (throttle + steering) * scale * LEFT_DIR
+  local targetR = (throttle - steering) * scale * RIGHT_DIR
+  local targetA = aux * scale * AUX_DIR
+
+  targetL = clamp(targetL)
+  targetR = clamp(targetR)
+  targetA = clamp(targetA)
+
+  
+  curL = ramp(curL, targetL)
+  curR = ramp(curR, targetR)
+  curA = ramp(curA, targetA)
+
+
+  setOutput(0, curL) -- CH1
+  setOutput(1, curR) -- CH2
+  setOutput(2, curA) -- CH3
+end
+
+return { run = run }
