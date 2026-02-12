@@ -1,6 +1,9 @@
 # Antweight-Battle-Bot
 <img width="827" height="664" alt="image" src="https://github.com/user-attachments/assets/7a95d8d7-10b6-47b5-84a7-85799e2fa336" />
 
+ huge thanks to PCBway for printing out these parts out of pc for me. the quality is really good and it was really fast. I am amazed at the qaultis of the toeeth iun the gears aswell
+
+
 
 
 This is a battle bot design that reminds me of when cars use trucks in movies as jumps.
