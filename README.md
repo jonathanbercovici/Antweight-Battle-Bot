@@ -1,8 +1,11 @@
 # Antweight-Battle-Bot
 <img width="827" height="664" alt="image" src="https://github.com/user-attachments/assets/7a95d8d7-10b6-47b5-84a7-85799e2fa336" />
 
- huge thanks to PCBway for printing out these parts out of pc for me. the quality is really good and it was really fast. I am amazed at the qaultis of the toeeth iun the gears aswell
+ huge thanks to PCBway for printing out these parts out of pc for me. the quality is really good and it was really fast. I am amazed at the quality of the toeeth iun the gears aswell
+![1000065967](https://github.com/user-attachments/assets/53d84397-71ed-46ee-9fbc-44c31d6ba636)
+![1000065967](https://github.com/user-attachments/assets/3b0601aa-1a0a-4e5e-b3f9-aedab36781ca)
 
+![1000065969 (1)](https://github.com/user-attachments/assets/2a800ced-f0fb-462c-bd1a-4a6e2e415d75)
 
 
 
