@@ -7,6 +7,7 @@
 
 ![1000065969 (1)](https://github.com/user-attachments/assets/2a800ced-f0fb-462c-bd1a-4a6e2e415d75)
 
+<img width="1020" height="700" alt="image" src="https://github.com/user-attachments/assets/75086949-62b0-4bd3-afbb-cd78633e4093" />
 
 
 This is a battle bot design that reminds me of when cars use trucks in movies as jumps.
@@ -16,7 +17,8 @@ I will try to aim to print the whole thing out of cf nylon as I kno w a freind w
 
 <img width="757" height="621" alt="image" src="https://github.com/user-attachments/assets/bbe3ec9d-3fd3-4468-a704-744c6da641e6" />
 
-<img width="1863" height="311" alt="image" src="https://github.com/user-attachments/assets/807b1b5c-06b7-44a5-9036-a29c4714b590" />
+<img width="1746" height="187" alt="image" src="https://github.com/user-attachments/assets/a3e845e0-f56f-4b40-9c3b-034b69225f5d" />
 
 
-I had to insert a screenshot because otherwise you wouldnt be able to see the colours.
+
+
